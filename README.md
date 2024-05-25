@@ -8,7 +8,7 @@ Used database: https://www.kaggle.com/datasets/bhavyadhingra00020/top-anime-data
  
 Data Collection and Preprocessing: After collecting the data I preprocessed the data to handle missing values, standardize formats, and prepare it for analysis.
 
-Data Analisis: I made an analysis of the database, having in count various attributes such as release dates, studios, producers, types, and popularity metrics
+Data Analisis: I made an analysis of the database, taking in count various attributes such as release dates, studios, producers, types, and popularity metrics
 
 Feature Engineering: Utilizing techniques like Term Frequency-Inverse Document Frequency (TF-IDF) and cosine similarity, I extracted features from the anime descriptions.
 
@@ -19,5 +19,7 @@ Model Evaluation: To assess the performance of our models, we employed cross-val
 
 ![image](https://github.com/27Steff/MLforClassification/assets/53145039/0c3c8072-7610-466e-81b9-f876093fd1b7)
 ![image](https://github.com/27Steff/MLforClassification/assets/53145039/c51d7304-8029-454d-8f63-4b47becba2ec)
+
+Due to the low accuracy of our initial Bayesian model, we employed a lazy predictor tool to identify the best model for our specific case. This tool suggested several potential models, and among them, logistic regression proved to be the most effective. By switching to logistic regression, we were able to significantly improve the model's performance, raising the accuracy to 80%.
 
 
