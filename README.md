@@ -20,6 +20,6 @@ Model Evaluation: To assess the performance of our models, we employed cross-val
 ![image](https://github.com/27Steff/MLforClassification/assets/53145039/0c3c8072-7610-466e-81b9-f876093fd1b7)
 ![image](https://github.com/27Steff/MLforClassification/assets/53145039/c51d7304-8029-454d-8f63-4b47becba2ec)
 
-Due to the low accuracy of our initial Bayesian model, we employed a lazy predictor tool to identify the best model for our specific case. This tool suggested several potential models, and among them, logistic regression proved to be the most effective. By switching to logistic regression, we were able to significantly improve the model's performance, raising the accuracy to 80%.
+Due to the low accuracy of our initial Bayesian model, we employed a lazy predictor tool to identify the best model for our specific case. This tool suggested several potential models, and among them, multinomial logistic regression proved to be the most effective. By switching to multinomial logistic regression, we were able to significantly improve the model's performance, raising the accuracy to 85%.
 
 
